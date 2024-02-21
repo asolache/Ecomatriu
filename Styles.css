@@ -1,29 +1,9 @@
-/* Estilos para el botón de registro */
-button {
-    background-color: #008CBA; /* Color de fondo azul */
-    color: white; /* Color de texto blanco */
-    padding: 15px 32px; /* Espaciado interno del botón */
-    text-align: center; /* Alineación del texto al centro */
-    text-decoration: none; /* Sin subrayado */
-    display: inline-block; /* Mostrar como elemento en línea */
-    font-size: 18px; /* Tamaño de fuente */
-    margin: 10px 0; /* Margen superior e inferior de 10px, y margen izquierdo y derecho automático */
-    cursor: pointer; /* Cursor de tipo puntero */
-    border-radius: 12px; /* Radio de borde para esquinas redondeadas */
-    border: none; /* Sin borde */
-    transition: background-color 0.3s; /* Transición suave para el cambio de color de fondo */
-}
-
-/* Cambiar el color de fondo cuando el cursor pasa sobre el botón */
-button:hover {
-    background-color: #005f73; /* Color de fondo azul oscuro */
-}
-
 /* Estilos para el encabezado (h1) */
 h1 {
     color: #333; /* Color de texto gris oscuro */
     font-family: 'Arial', sans-serif; /* Fuente Arial o similar */
     text-align: center; /* Alineación del texto al centro */
+    margin-bottom: 20px; /* Margen inferior de 20px */
 }
 
 /* Estilos para los encabezados secundarios (h2) */
@@ -31,13 +11,16 @@ h2 {
     color: #008CBA; /* Color de texto azul */
     font-family: 'Arial', sans-serif; /* Fuente Arial o similar */
     text-align: center; /* Alineación del texto al centro */
+    margin-bottom: 15px; /* Margen inferior de 15px */
 }
 
 /* Estilos para los párrafos (p) */
 p {
     color: #555; /* Color de texto gris */
     font-family: 'Arial', sans-serif; /* Fuente Arial o similar */
+    text-align: center; /* Alineación del texto al centro */
     line-height: 1.6; /* Altura de línea */
+    margin-bottom: 10px; /* Margen inferior de 10px */
 }
 
 /* Estilos para los enlaces */
@@ -56,6 +39,7 @@ a:hover {
 /* Estilos para la sección del registro */
 #registro {
     text-align: center; /* Alineación del texto al centro */
+    margin-bottom: 30px; /* Margen inferior de 30px */
 }
 
 /* Estilos para el mensaje */
@@ -69,4 +53,8 @@ a:hover {
 /* Establecer color de fondo armónico */
 body {
     background-color: #f2f2f2; /* Color de fondo gris claro */
+    text-align: center; /* Alineación del texto al centro */
+    font-family: 'Arial', sans-serif; /* Fuente Arial o similar */
+    padding: 20px; /* Espaciado interno de 20px */
+    line-height: 1.6; /* Altura de línea */
 }
