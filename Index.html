@@ -99,5 +99,41 @@
     </section>
 
     <script src="registro.js"></script>
+
+    <!-- Formulario de Registro -->
+    <section id="registro">
+        <h2>Registro</h2>
+        <button onclick="registrarNick()">Registrar Nickname</button>
+    </section>
+
+    <div id="mensaje"></div>
+
+    <script>
+        function registrarNick() {
+            var nickname = prompt("Por favor, ingresa tu nickname:");
+            if (nickname != null) {
+                // Aquí puedes agregar la lógica para guardar el nombre en el localStorage
+                localStorage.setItem('nickname', nickname);
+
+                // Frases inspiradoras asociadas al nickname
+                var frases = {
+                    'valor1': '¡Sé valiente y sigue tus sueños!',
+                    'valor2': 'La perseverancia es la clave del éxito.',
+                    'valor3': 'Nunca subestimes el poder de tu pasión.'
+                    // Puedes agregar más frases inspiradoras asociadas a otros valores
+                };
+
+                // Obtener una frase inspiradora aleatoria
+                var valores = Object.keys(frases);
+                var valorAleatorio = valores[Math.floor(Math.random() * valores.length)];
+                var frase = frases[valorAleatorio];
+
+                // Mostrar el mensaje con el nombre y la frase inspiradora
+                var mensaje = "¡Hola, " + nickname + "! " + frase;
+                document.getElementById("mensaje").innerHTML = mensaje;
+            }
+        }
+    </script>
+
 </body>
 </html>
