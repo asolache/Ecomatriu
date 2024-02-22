@@ -1,60 +1,41 @@
-/* Estilos para el encabezado (h1) */
-h1 {
-    color: #333; /* Color de texto gris oscuro */
-    font-family: 'Arial', sans-serif; /* Fuente Arial o similar */
-    text-align: center; /* Alineación del texto al centro */
-    margin-bottom: 20px; /* Margen inferior de 20px */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
-/* Estilos para los encabezados secundarios (h2) */
-h2 {
-    color: #008CBA; /* Color de texto azul */
-    font-family: 'Arial', sans-serif; /* Fuente Arial o similar */
-    text-align: center; /* Alineación del texto al centro */
-    margin-bottom: 15px; /* Margen inferior de 15px */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
-/* Estilos para los párrafos (p) */
-p {
-    color: #555; /* Color de texto gris */
-    font-family: 'Arial', sans-serif; /* Fuente Arial o similar */
-    text-align: center; /* Alineación del texto al centro */
-    line-height: 1.6; /* Altura de línea */
-    margin-bottom: 10px; /* Margen inferior de 10px */
+nav ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-/* Estilos para los enlaces */
-a {
-    color: #008CBA; /* Color de texto azul */
-    text-decoration: none; /* Sin subrayado */
-    font-weight: bold; /* Texto en negrita */
-    transition: color 0.3s; /* Transición suave para el cambio de color */
+nav ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
-/* Cambiar el color del enlace cuando el cursor pasa sobre él */
-a:hover {
-    color: #005f73; /* Color de texto azul oscuro */
+nav ul li a {
+    color: white;
+    text-decoration: none;
 }
 
-/* Estilos para la sección del registro */
-#registro {
-    text-align: center; /* Alineación del texto al centro */
-    margin-bottom: 30px; /* Margen inferior de 30px */
+section {
+    padding: 20px;
 }
 
-/* Estilos para el mensaje */
-#mensaje {
-    font-size: 20px; /* Tamaño de fuente */
-    margin-top: 20px; /* Margen superior de 20px */
-    color: #008CBA; /* Color de texto azul */
-    font-family: 'Arial', sans-serif; /* Fuente Arial o similar */
-}
-
-/* Establecer color de fondo armónico */
-body {
-    background-color: #f2f2f2; /* Color de fondo gris claro */
-    text-align: center; /* Alineación del texto al centro */
-    font-family: 'Arial', sans-serif; /* Fuente Arial o similar */
-    padding: 20px; /* Espaciado interno de 20px */
-    line-height: 1.6; /* Altura de línea */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
